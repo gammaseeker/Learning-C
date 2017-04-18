@@ -2,6 +2,8 @@
 int main() 
 {
     int x;
+    char z = 'z';
+    float f = 1.0/2.0;
     printf( "Declare x first" );
 
    return 0;
