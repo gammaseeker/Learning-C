@@ -11,7 +11,7 @@ int main()
 #include <stdio.h>
 int main()
 {
-    /* wrong!  The variable declaration must appear first */
+    // wrong!  The variable declaration must appear first 
     printf( "Declare x next" );
     int x;
 
