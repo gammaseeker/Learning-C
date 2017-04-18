@@ -4,7 +4,7 @@ int main()
     int x;
     printf( "Declare x first" );
 
-   
+   return 0;
 }
 
 /*
@@ -15,6 +15,6 @@ int main()
     printf( "Declare x next" );
     int x;
 
-   
+   return 0;
 }
 */
