@@ -11,7 +11,7 @@ int main()
 	
 	while(a < 5)
 	{
-		printf("Value of i: %d\n", a);
+		printf("Value of a: %d\n", a);
 		a = a + 1;
 	}
 	return 0;

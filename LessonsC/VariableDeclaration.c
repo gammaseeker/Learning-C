@@ -16,7 +16,6 @@ int main()
     // wrong!  The variable declaration must appear first 
     printf( "Declare x next" );
     int x;
-
    return 0;
 }
 */
