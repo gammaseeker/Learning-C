@@ -3,7 +3,7 @@
 
 int main()
 {
-  std::cout << "Hello World!";
-  std::cout << "I'm a C++ program";
+  std::cout << "Hello World!" << std::endl;
+  std::cout << "I'm a C++ program" << std::endl;
   return 0;
 }
