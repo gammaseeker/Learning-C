@@ -1,1 +1,1 @@
-/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/testerino.dir/main.cpp.o  -o testerino.exe -Wl,--out-implib,libtesterino.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/testerino.dir/main.cpp.o CMakeFiles/testerino.dir/Input.cpp.o  -o testerino.exe -Wl,--out-implib,libtesterino.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

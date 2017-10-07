@@ -3,5 +3,5 @@ project(test)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Input.cpp Input.h)
 add_executable(testerino ${SOURCE_FILES})

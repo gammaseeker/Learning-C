@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/d/CppWorkspace/testerino/Input.cpp">
+			<Option target="testerino"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/CppWorkspace/testerino/Input.h">
+			<Option target="testerino"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/CppWorkspace/testerino/main.cpp">
 			<Option target="testerino"/>
 		</Unit>

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/testerino.dir/main.cpp.o"
+  "CMakeFiles/testerino.dir/Input.cpp.o"
   "testerino.pdb"
   "testerino.exe"
   "libtesterino.dll.a"
