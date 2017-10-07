@@ -1,0 +1,1 @@
+/usr/bin/c++.exe     -Wl,--enable-auto-import  CMakeFiles/cmTC_c90b7.dir/feature_tests.cxx.o  -o cmTC_c90b7.exe -Wl,--out-implib,libcmTC_c90b7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
