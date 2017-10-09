@@ -1,0 +1,4 @@
+C:\cygwin64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/d/CppWorkspace/AcceleratedCpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/d/CppWorkspace/AcceleratedCpp/cmake-build-debug

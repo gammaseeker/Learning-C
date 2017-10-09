@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/AcceleratedCpp.dir/main.cpp.o CMakeFiles/AcceleratedCpp.dir/Input.cpp.o CMakeFiles/AcceleratedCpp.dir/ChOne.cpp.o  -o AcceleratedCpp.exe -Wl,--out-implib,libAcceleratedCpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
