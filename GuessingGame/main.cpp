@@ -2,6 +2,8 @@
 #include <stdlib.h>     /* srand, rand */
 #include <math.h>
 #include <vector>
+#include <experimental/random>
+
 
 
 void start()
@@ -21,6 +23,13 @@ int getInput()
 	return in;
 }
 
+void printGuesses(std::vector<int> v)
+{
+	for(std::size_t i = 0; i < v.size(); i++){
+		std::cout << v[i] << " ";
+	}
+}
+
 void game(int level)
 {
 	if(level > 4 || level < 1){
@@ -29,7 +38,7 @@ void game(int level)
 		game(input);
 	}
 	else{
-		int theValue = rand() % (int)pow(10, level) + 1;//Bug stays same value even if we play again
+		int theValue = std::experimental::randint(1, (int)pow(10, level));
 		int guess = 1;
 		bool correct = false;
 		std::cout << "Enter a guess" << std::endl;
@@ -44,15 +53,17 @@ void game(int level)
 				std::string resp;
 				std::cin >> resp;
 				if(resp.compare("yes") == 0){
+					printGuesses(guessVector);
+					std::cout << std::endl;
+					guessVector.clear();
 					correct = false;
 					std::cout << "Enter a guess" << std::endl;
 					guess = 1;
+					theValue = std::experimental::randint(1, (int)pow(10, level));
 				}
 				else{
 					correct = true;
-					for(std::size_t i = 0; i < guessVector.size(); i++){
-						std::cout << guessVector[i] << " " << std::endl;
-					}
+					printGuesses(guessVector);
 				}
 			}
 			else{
@@ -68,6 +79,8 @@ void game(int level)
 		}
 	}
 }
+
+
 
 int main()
 {
