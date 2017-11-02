@@ -16,17 +16,22 @@ int main()
 {
 	int a;
 	int b;
-	int sum;
+	int sumNum;
+
+	int d = 5;
+	int e (6);
+	int f {7};
 
 	std::cout << "Enter a number \n";
 	std::cin >> a;
 	std::cout << "Enter another number \n";
 	std::cin >> b;
-	sum = sum(a, b);
-	std::cout << "The sum is: " << sum << std::endl;
+	sumNum = sum(a, b);
+	std::cout << "The sum is: " << sumNum << std::endl;
 	//std::cout << "The sum is: " << sum(a, b) << std::endl; This is an eclipse bug, it should run
 
-	printSomething(sum);
+	printSomething(sumNum);
 
+	std::cout << d << e << f << std::endl;
 	return 0;
 }
