@@ -1,10 +1,10 @@
 #include <iostream>
 
-using namespace std;
+//using namespace std;
 
 void printSomething(int num)
 {
-	cout << "The number you have given me is " << num << endl;
+	std::cout << "The number you have given me is " << num << std::endl;
 }
 
 int sum(int a, int b)
@@ -18,13 +18,13 @@ int main()
 	int b;
 	int sum;
 
-	cout << "Enter a number \n";
-	cin >> a;
-	cout << "Enter another number \n";
-	cin >> b;
+	std::cout << "Enter a number \n";
+	std::cin >> a;
+	std::cout << "Enter another number \n";
+	std::cin >> b;
 	sum = sum(a, b);
-	cout << "The sum is: " << sum << endl;
-	//cout << "The sum is: " << sum(a, b) << endl; This is an eclipse bug, it should run
+	std::cout << "The sum is: " << sum << std::endl;
+	//std::cout << "The sum is: " << sum(a, b) << std::endl; This is an eclipse bug, it should run
 
 	printSomething(sum);
 
