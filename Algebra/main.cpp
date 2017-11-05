@@ -46,11 +46,21 @@ void testCoords()
 
 void testLinearEquation()
 {
+	LinearEquation l1(1, 2, 3);
+	LinearEquation lCopy(4, 5, 6);
+	LinearEquation l2(lCopy);
+	LinearEquation l3(Coords(3, 6), Coords(5, 10));
+	LinearEquation l4(-2, Coords(1, 1));
 
+	std::cout << "Linear Equation 1: " << l1.getA() << "x + " << l1.getB() << "y + " << l1.getC() << std::endl;
+	std::cout << "Linear Equation 2: " << l2.getA() << "x + " << l2.getB() << "y + " << l2.getC() << std::endl;
+	std::cout << "Linear Equation 3: " << l3.getA() << "x + " << l3.getB() << "y + " << l3.getC() << std::endl;
+	std::cout << "Linear Equation 4: " << l4.getA() << "x + " << l4.getB() << "y + " << l4.getC() << std::endl;
 }
 
 int main()
 {
 	testCoords();
+	testLinearEquation();
 	return 0;
 }

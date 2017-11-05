@@ -19,7 +19,7 @@ class LinearEquation {
 	public:
 		LinearEquation(double a, double b, double c);
 		LinearEquation(const LinearEquation &) = default;
-		LinearEquation(Coords & point1, Coords & point2)
+		LinearEquation(Coords&& point1, Coords&& point2)
 		{
 			this -> a = point2.getY() - point1.getY();
 			this -> b = point2.getX() - point1.getX();
