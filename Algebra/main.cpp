@@ -1,11 +1,16 @@
 #include<iostream>
 #include "Coords.h"
+#include "LinearEquation.h"
 
 void testCoords()
 {
 	//Test default constructor
 	Coords coord1;
+	Coords coord2(4);
+	Coords coord3(3, 2);
 	std::cout << "coord1 is (" << coord1.getX() << ", " << coord1.getY() << ")" << std::endl;
+	std::cout << "coord2 is (" << coord2.getX() << ", " << coord2.getY() << ")" << std::endl;
+	std::cout << "coord3 is (" << coord3.getX() << ", " << coord3.getY() << ")" << std::endl;
 
 	coord1.setX(5);
 	coord1.setX(8);
@@ -36,6 +41,11 @@ void testCoords()
 	std::cout << "The slope of the line from the point to the origin is " << coord1.getSlopeOfLineSegment(Coords(0,0)) << std::endl;
 
 	std::cout << "End test for " << coord1.toString() << std::endl;
+
+}
+
+void testLinearEquation()
+{
 
 }
 
