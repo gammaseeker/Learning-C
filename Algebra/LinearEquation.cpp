@@ -4,7 +4,7 @@
  *  Created on: Nov 4, 2017
  *      Author: Prodigy
  */
-
+#include<iostream>
 #include "LinearEquation.h"
 
 LinearEquation::LinearEquation(double a, double b, double c) {
@@ -14,6 +14,6 @@ LinearEquation::LinearEquation(double a, double b, double c) {
 }
 
 LinearEquation::~LinearEquation() {
-	// TODO Auto-generated destructor stub
+	std::cout << "LinearEquation object is being destroyed" << std::endl;
 }
 

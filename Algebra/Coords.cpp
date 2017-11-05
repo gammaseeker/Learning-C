@@ -5,6 +5,7 @@
  *      Author: Prodigy
  */
 
+#include<iostream>
 #include "Coords.h"
 
 Coords::Coords()
@@ -15,6 +16,6 @@ Coords::Coords()
 }
 
 Coords::~Coords() {
-	// TODO Auto-generated destructor stub
+	std::cout << "Coords object is being destroyed" << std::endl;
 }
 

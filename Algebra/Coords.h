@@ -147,7 +147,7 @@ private:
 			return "(" + std::to_string(this->x) + ", " + std::to_string(this->y) + ")";
 		}
 
-		virtual ~Coords();// What the fuck is this???
+		virtual ~Coords();// This is a deconstructor
 };
 
 #endif /* COORDS_H_ */
