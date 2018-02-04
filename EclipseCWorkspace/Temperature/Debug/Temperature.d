@@ -1,0 +1,1 @@
+Temperature.o: ../Temperature.c

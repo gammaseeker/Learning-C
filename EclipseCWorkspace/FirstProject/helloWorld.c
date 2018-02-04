@@ -2,5 +2,6 @@
 int main()
 {
 	printf("Hello, World!");
+	printf("\c");
 	return 0;// exit status
 }
