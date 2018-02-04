@@ -1,0 +1,1 @@
+GameOfThrees.o: ../GameOfThrees.c
